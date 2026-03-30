@@ -65,6 +65,7 @@ class Linkedlist{
         while(temp !==null){
             if(temp.data===data) 
                 return true
+            temp=temp.next;
         }
         return false
     }
@@ -93,7 +94,7 @@ class Linkedlist{
     }
 }
 
-const list = new LinkedList();
+const list = new Linkedlist();
 
 // Insert elements
 list.append(10);
