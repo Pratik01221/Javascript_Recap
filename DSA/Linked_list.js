@@ -66,6 +66,7 @@ class Linkedlist{
             if(temp.data===data) 
                 return true
             temp=temp.next;
+            
         }
         return false
     }
